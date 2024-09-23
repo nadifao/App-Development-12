@@ -3,12 +3,17 @@ body {
 }
 
 h1 {
-color: brown;
+color: #30281e;
 text-align: center;
 font-family: monospace;
 }
 
 p {
-color: pink;
+  background-color: #deaca4;
+  padding: 12px;
+  border-radius: 10px;
+  border: 12px solid #FFFF;
+
+color: #212b1d;
 font-family: monospace;
 }
