@@ -26,3 +26,14 @@ padding: 3px;
 
 
 }
+
+
+.img {
+
+  width: 204px;
+  height: 300px;
+  position: relative;
+  left: -6px;
+  top: -2px;
+  border-radius:2px;
+}
