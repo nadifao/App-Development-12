@@ -44,31 +44,11 @@ padding: 3px;
 
 
 }
-<<<<<<< HEAD
-
-<! Navigation bar CSS, feel free to change colour/font! />
-.navbar {
-    background-color: black;
-    font-family: "Times New Roman", Times, serif;
-    overflow:hidden;
-}
-
-<! Styles the links inside of the navigation bar />
-.navbar a {
-    text-align: left;
-    color: white;
-    float: left;
-    font-size: 16px;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-||||||| 05b2af8
-=======
 
 
 .img {
 
-  width: 204px;
+  width: 202px;
   height: 300px;
   position: relative;
   left: -6px;
@@ -94,4 +74,3 @@ padding: 3px;
 #penguin:hover{
   opacity: 0.3
 }
->>>>>>> origin/features2-styling
