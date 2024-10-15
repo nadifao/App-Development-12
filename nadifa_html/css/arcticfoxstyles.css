@@ -1,14 +1,38 @@
 
 
+
+body {
+  background: white;
+  background-image: url("arcticbackground.jpeg"); /* fallback */
+  background-image: linear-gradient(rgba(64, 74, 107, 0.7), rgba(64, 74, 107, 0)), url("arcticbackground.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh; /* W3C */
+}
+
+
+/* body {
+
+  background-image: url('arcticbackground.jpeg'), linear-gradient(to bottom, rgba(64, 74, 107, 0.7), rgba(64, 74, 107, 0));
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  background-blend-mode: lighten;
+
+
+
+
+} */
+
 h1 {
 
 
 
   font-family: ClarendonBT-Light, Georgia, serif;
   text-align: center;
-  color: #0077b6;
-  border-top: 3px solid #0077b6;
-  border-bottom: 2px solid #0077b6;
+  color: white;
+  border-top: 3px solid white;
+  border-bottom: 2px solid white;
   margin-left:550px;
   margin-right: 550px;
 
@@ -25,6 +49,11 @@ text-align:justify;
 font-size:19px;
 colour: #031636;
 font-family: "PlantinMTStd-Regular", Georgia, serif;
+background: white;
+opacity: 0.5;
+padding: 10px;
+margin: 10px;
+border-radius: 5px;
 
 
 
