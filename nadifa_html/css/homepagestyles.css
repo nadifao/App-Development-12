@@ -4,6 +4,10 @@ body {
 
 }
 
+
+
+
+
 h1 {
 
 font-family: ClarendonBT-Light, Georgia, serif;
@@ -11,12 +15,10 @@ text-align: center;
 color: #03045e;
 border-top: 3px solid #03045e;
 border-bottom: 2px solid #03045e;
-justify-content: center;
 margin-left:550px;
 margin-right: 550px;
 
 padding: 20px;
-
 padding: 3px;
 
 }
@@ -40,9 +42,6 @@ padding: 3px;
   height: 305px;
   filter: drop-shadow(0px 0px 8px white);
 
-
-
-
 }
 
 
@@ -58,7 +57,6 @@ padding: 3px;
   transition: .5s ease;
   backface-visibility: hidden;
   cursor: pointer;
-
 
 }
 
@@ -78,7 +76,7 @@ padding: 3px;
 .bg-img {
   background-image: url("https://humanprogress.org/wp-content/uploads/2022/04/Iceberg.jpg");
 
-  min-height: 380px;
+  min-height: 500px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -88,22 +86,27 @@ padding: 3px;
 
 .container2 {
   position: center;
-  margin: 0px;
+  margin: 200px;
   width: auto;
-  border-top: 5px solid #ffffff;
-  border-bottom: 5px solid #ffffff;
   justify-content: center;
+  margin-left:300px;
+  margin-right: 300px;
 }
 
 .topnav {
   overflow: hidden;
+  text-align: center;
+  position: absolute;
+  bottom: 20px;
+  border-top: 5px solid #ffffff;
+  border-bottom: 5px solid #ffffff;
 }
 
 .topnav a {
   float: center;
   color: #f2f2f2;
-  text-align: center;
   padding: 14px 16px;
+  text-align: center;
   text-decoration: none;
   font-size:30px;
   margin-left:55px;
@@ -115,3 +118,30 @@ padding: 3px;
   background-color: #ddd;
   color: black;
 }
+
+.dropbutton {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbutton {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
