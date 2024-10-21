@@ -1,2 +1,5 @@
 .DS_Store
+nadifa.html/.gitignore
+*.iml
+out/
 .idea/
