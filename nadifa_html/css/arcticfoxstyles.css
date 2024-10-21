@@ -25,19 +25,19 @@ body {
 h1 {
 
   font-family: ClarendonBT-Light, Georgia, serif;
-  text-align: center;
+  text-align: justify;
   color: white;
   background-color: #03045e;
   font-weight: lighter;
   border-top: 5px solid white;
   border-bottom: 5px solid white;
+  padding: 10px;
 
 
 }
 
 
-h2 {
-
+h2, h3{
 
 
   font-family: ClarendonBT-Light, Georgia, serif;
@@ -47,10 +47,7 @@ h2 {
   margin-right: 550px;
 
   padding: 20px;
-
   padding: 3px;
-
-
 }
 
 .container2 {
@@ -71,6 +68,16 @@ h2 {
 
 
 }
+
+@media (max-width: 768px) {
+  body {
+    padding: 10px; /* Reduce padding on smaller screens */
+  }
+  h1 {
+    font-size: 24px; /* Smaller heading on mobile */
+  }
+} /*this all just fixes it up on different sized screens!*/
+
 
 
 
@@ -105,18 +112,12 @@ h2 {
 }
 
 
-
 p {
-
-text-align:justify;
-font-size:19px;
-colour: #031636;
-font-family: "PlantinMTStd-Regular", Georgia, serif;
-padding: 10px;
-margin: 10px;
-border-radius: 5px;
-
-
-
-
+    text-align: justify;
+    font-size: 19px;
+    color: #031636; /* Corrected here */
+    font-family: "PlantinMTStd-Regular", Georgia, serif;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
 }
