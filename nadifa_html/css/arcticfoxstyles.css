@@ -1,0 +1,122 @@
+
+
+
+body {
+  background-image: url("https://www.worldwildlife.org/assets/structure/unique/bg-patterned-checked-51cb0afb5e9111aef8529ce1f6d871eb1694b6db4c2630db50bd0a5a7c4c357b.jpg");
+
+ /* W3C */
+}
+
+
+/* body {
+
+  background-image: url('arcticbackground.jpeg'), linear-gradient(to bottom, rgba(64, 74, 107, 0.7), rgba(64, 74, 107, 0));
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  background-blend-mode: lighten;
+
+
+
+
+} */
+
+
+h1 {
+
+  font-family: ClarendonBT-Light, Georgia, serif;
+  text-align: center;
+  color: white;
+  background-color: #03045e;
+  font-weight: lighter;
+  border-top: 5px solid white;
+  border-bottom: 5px solid white;
+
+
+}
+
+
+h2 {
+
+
+
+  font-family: ClarendonBT-Light, Georgia, serif;
+  text-align: center;
+  color: black;
+  margin-left:550px;
+  margin-right: 550px;
+
+  padding: 20px;
+
+  padding: 3px;
+
+
+}
+
+.container2 {
+  position: center;
+  margin: 0px;
+  width: 100%;
+  justify-content: center;
+  overflow-y: hidden;
+
+}
+
+.topnav {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  background: #03045e;
+  padding: 10px;
+
+
+}
+
+
+
+.topnav a {
+  float: center;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 0px 16px;
+  text-decoration: none;
+  font-size:30px;
+  margin-left:55px;
+  margin-right: 55px;
+  justify-content: center;
+}
+
+.topnav a:hover {
+  border-bottom: 3px solid blue;
+  cursor: pointer;
+}
+
+
+.bg-img {
+  background-image: url("arctic-fox-main.jpg");
+
+  min-height: 450px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  position: relative;
+}
+
+
+
+p {
+
+text-align:justify;
+font-size:19px;
+colour: #031636;
+font-family: "PlantinMTStd-Regular", Georgia, serif;
+padding: 10px;
+margin: 10px;
+border-radius: 5px;
+
+
+
+
+}
