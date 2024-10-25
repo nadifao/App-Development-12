@@ -96,14 +96,27 @@ padding: 12px;
   position: absolute;
   left: 0px;
   bottom: 0px;
-  background: #03045e;
+  background: #black;
   padding: 10px;
   color: #white;
+  z-index: 999;
 }
 
-.dropdown a {
+.topnav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+    background: black;
+}
+
+.topnav li {
+	display: inline-block;
+}
+
+.topnav li a {
+  color: white;
+  display: block;
   float: center;
-  color: #white;
   padding: 14px 16px;
   text-align: center;
   text-decoration: none;
@@ -113,33 +126,39 @@ padding: 12px;
   justify-content: center;
 }
 
-.dropdown a:hover {
-  background-color: #ddd;
-  color: white;
+.topnav ul ul {
+	position: absolute;
+	top: 100%;
+	display: none;
+	font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
 }
 
-.dropbutton {
-    float: left;
-    overflow: hidden;
+.topnav ul ul li {
+	display: block;
 }
 
-.dropdown .dropbutton {
-  font-size: 16px;
-  border: none;
-  outline: none;
-  color: white;
-  padding: 14px 16px;
+.topnav li:hover ul {
+	display: block;
+	background-color: #black;
+    color: white;
 }
 
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #white;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+.topnav ul ul li a:hover {
+	background-color: #white;
 }
 
-.dropdown:hover .dropdown-content{
-  display: block;
+.topnav ul ul li a img {
+    background-color: white;
+    width: 300px;
+    height: 400px;
+}
+
+.topnav ul ul li a img2 {
+    background-color: white;
+    width: 250px;
+    height: 250px;
 }
