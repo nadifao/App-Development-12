@@ -4,6 +4,14 @@ body {
 }
 
 
+
+
+html{
+scroll-behabirou: smooth;
+}
+
+
+
 /* body {
   background-image: url('arcticbackground.jpeg'), linear-gradient(to bottom, rgba(64, 74, 107, 0.7), rgba(64, 74, 107, 0));
   background-repeat: no-repeat;
