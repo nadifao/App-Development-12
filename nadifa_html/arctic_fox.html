@@ -13,19 +13,20 @@
 
 </head>
 
+
+<body>
 <div class="bg-img">
   <h1>arctic fox</h1>
     <div class="container2">
         <div class="topnav">
-            <a href="#fun-facts">fun facts!</a>
-            <a href="#wtl">where they live</a>
-            <a href="#wte">what they eat</a>
+            <a href="#fun-facts" class="btn-scroll">fun facts!</a>
+            <a href="#wtl" class="btn-scroll">where they live</a>
+            <a href="#wte" class="btn-scroll">what they eat</a>
             <a href="about">About</a>
         </div>
     </div>
 </div>
 
-<body>
 	<h2 style="font-size: 30px; text-align: justify" id="fun-facts">fun facts</h2>
 
 <p style="font-size:19px"> 
@@ -107,5 +108,21 @@ allowfullscreen></iframe>
 <b>*</b>vixen = female fox
 </p>
 <a href="website.html">Go Back to Homepage!</a>
+
+
+
+
+<script>
+document.querySelectorAll('.btn-scroll').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();  // Prevent instant jump
+        const target = document.querySelector(this.getAttribute('href'));  
+        target.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+        });
+    });
+});
+</script>
 </body>
 </html>
