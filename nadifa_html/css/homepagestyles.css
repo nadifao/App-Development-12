@@ -28,6 +28,7 @@ padding: 12px;
   position: relative;
 
 
+
 }
 
 
@@ -37,13 +38,16 @@ display: inline-block;
 
 }
 
-.btn {
+button {
 
   margin: 40px;
   margin-top: -30px;
   background-color: #03045e;
   border: none;
   position: relative;
+  border-radius: 10px;
+  width: 327px;
+  height: 340px;
 
 }
 
@@ -51,6 +55,7 @@ display: inline-block;
 .parent:hover .button-text {
   cursor: pointer;
   color: white;
+  filter: drop-shadow(2px 2px 5px white);
 
   opacity:100%;
 }
@@ -58,7 +63,6 @@ display: inline-block;
 .button-text {
   font-family:ClarendonBT-Light, Georgia, serif;
   position: absolute;
-  z-index: auto;
   top: 50%;
   left:50%;
   transform: translate(-50%, -50%);
@@ -68,20 +72,24 @@ display: inline-block;
   font-weight: bold;
   font-size: 30px;
 
+
 }
 
-img {
+.img {
 
-  backface-visibility: hidden;
+  position: inherit;
   cursor: pointer;
   width: 327px;
   height: 340px;
   object-fit: cover;
   border-radius: 10px;
+  margin-left: -6px;
+  margin-top: -1px;
+
 
 }
 
-img:hover {
+.parent:hover .img {
   transition: .5s ease;
 
   opacity: 50%;
