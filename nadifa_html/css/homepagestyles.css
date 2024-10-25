@@ -64,6 +64,7 @@ padding: 12px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  margin-bottom: 50px;
 
   position: relative;
 }
@@ -79,8 +80,8 @@ padding: 12px;
 
 .topnav {
   position: absolute;
-  left: 0px;
-  bottom: 0px;
+  left: -10px;
+  bottom: -10px;
   background: #black;
   padding: 10px;
   color: #white;
