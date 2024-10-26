@@ -141,9 +141,13 @@ padding: 12px;
     width: 300px;
     height: 400px;
 }
-
-.topnav ul ul li a img2 {
+.topnav ul ul li a div.gallery {
     background-color: white;
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 400px;
+}
+.topnav ul ul li a img.img2 {
+    background-color: white;
+    width: 50px;
+    height: 50px;
 }
