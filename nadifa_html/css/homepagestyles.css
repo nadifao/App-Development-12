@@ -123,12 +123,6 @@ padding: 12px;
     list-style: none;
 }
 
-.topnav ul ul li {
-    justify-content: flex-start;
-    align-items: flex-start;
-
-}
-
 .topnav li:hover ul {
 	display: block;
 	background-color: #black;
@@ -139,16 +133,16 @@ padding: 12px;
 	background-color: #white;
 }
 
-.topnav ul ul li a img {
-    background-color: white;
-    width: 300px;
-    height: 400px;
-}
-
 .topnav ul li ul a{
     justify-content: flex-start;
     align-items: flex-start;
     display: inline-block;
+}
+
+.topnav ul ul li a img {
+    background-color: white;
+    width: 300px;
+    height: 400px;
 }
 
 .topnav ul ul li a img.img2 {
