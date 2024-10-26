@@ -120,10 +120,13 @@ padding: 12px;
     outline: none;
     color: white;
     padding: 14px 16px;
+    list-style: none;
 }
 
 .topnav ul ul li {
-	display: block;
+    justify-content: flex-start;
+    align-items: flex-start;
+
 }
 
 .topnav li:hover ul {
@@ -141,13 +144,15 @@ padding: 12px;
     width: 300px;
     height: 400px;
 }
-.topnav ul ul li a div.gallery {
-    background-color: white;
-    width: 300px;
-    height: 400px;
+
+.topnav ul li ul a{
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: inline-block;
 }
+
 .topnav ul ul li a img.img2 {
     background-color: white;
-    width: 50px;
-    height: 50px;
+    width: 150px;
+    height: 150px;
 }
