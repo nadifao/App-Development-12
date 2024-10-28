@@ -4,6 +4,11 @@ body {
   background-size:cover;
   min-height: 100vh;
 }
+section {
+    padding: 20px;
+    margin: 20px 0;
+    border-bottom: 2px solid #031636;  /* 2px wide dark border */
+}
 
 html{
 scroll-behavior: smooth;
