@@ -4,24 +4,61 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/arcticfoxstyles.css">
     <link rel="icon" href="favicon.ico">
-    <title>Arctic Fox!</title>
+    <title>Arctic Fox- Facts and Info</title>
+<style>
+    html{
+	scroll-behaviour: smooth;
+    }
+</style>
 </head>
+<body>
 
 <div class="bg-img">
   <h1>arctic fox</h1>
     <div class="container2">
         <div class="topnav">
-            <a href="#fun-facts">fun facts!</a>
-            <a>where they live</a>
-            <a>what they eat</a>
-            <a>About</a>
+            <a href="#fun-facts" class="btn-scroll">fun facts!</a>
+            <a href="#wtl" class="btn-scroll">where they live</a>
+            <a href="#wte" class="btn-scroll">what they eat</a>
+            <a href="#vid">video!</a>
         </div>
     </div>
 </div>
+<h1 style="font-size: 65px; text-align: justify-center">Arctic Fox!</h1>
 
-<body>
-	<h2 style="font-size: 30px; text-align: center" id="fun-facts">fun facts</h2>
-<p> the arctic fox (also known as the white fox, polar fox or snow fox), mainly reside in the arctic and alpine tundra, meaning you could find them in Canada, Greenland, Iceland, and Russia.
+<section id="fun-facts">
+<h2 style="font-size: 30px; text-align: center;">Fun Facts</h2>
+<p style="font-size:19px"> 
+• arctic foxes when sprinting would reach speeds of 50 kph!
+<br>
+<br>
+• they have dark-coloured skin underneath thier fur coats
+<br>
+<br>
+• in wild, they have an average lifspan of 3-4 years
+<br>
+<br>
+• there are 8 recognized subspecies of the arctic fox
+<br>
+<br>
+• due to climate change, it is becoming increasingly difficult for them to hunt as there is not much snow cover for their coats to blend into
+<br>
+<br>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+</section>
+<br>
+<br>
+<br>
+
+<section id="wtl">
+
+<h2 style="font-size: 30px; text-align: center;">where they live</h2>
+<p style="font-size:19px"> the arctic fox (also known as the white fox, polar fox or snow fox), mainly reside in the arctic and alpine tundra, meaning you could find them in Canada, Greenland, Iceland, and Russia.
 <br>
 The <b>arctic foxes</b> live a more <b>communal</b> and <b>nomadic life</b>, working with others to constantly scavenge for food.
 <br>
@@ -31,39 +68,60 @@ From their home, they dig around <b>4-8</b> different <b>entrances/exits</b>, co
 These dens not only provide shelter from the extreme cold but also serve as a safe place for raising their young. The pups are born in late spring and begin to emerge from the den in early summer, learning essential survival skills from their parents.
 
 
-Their diet is varied, consisting of small mammals like lemmings, birds, and carrion, as well as berries and other vegetation when available.
+<br>
+<br>
+<br>
+<br>
+<br>
+</section>
+<br>
+<br>
+<br>
+
+
+<section id="wte">
+
+<h2 style="font-size: 30px; text-align: center" >what they eat</h2>
+<p style="font-size:19px">
+Their diet is varied, consisting of small mammals like <b>lemmings, birds, and carrion</b>, as well as berries and other vegetation when available.
 
 This adaptability in their diet allows them to thrive in an environment where food sources can be scarce.
 <br>
 <br>
-
 The Arctic fox's keen senses and agile hunting skills make it a formidable predator despite its small size.
 <br>
 They have excellent hearing, allowing them to detect prey beneath the snow.
 <br>
-
-When hunting, they often use a technique called "pendulum hunting," where they leap high into the air and dive headfirst into the snow to catch their prey below.
+When hunting, they often use a technique called <b>"pendulum hunting,"</b> where they leap high into the air and dive headfirst into the snow to catch their prey below.
 This unique hunting strategy showcases their remarkable adaptability and resilience in a challenging environment.
+<br>
+<br>
+<br>
+<br>
+</section>
+<br>
+<br>
+<br>
+<br>
 
 
-<h2 style="font-size: 16px; text-align: center"> Watch this video because it is cute !</h2>
 
-<div class = "video-thing">
 
-<iframe width="560" height="315"
+<section id="vid">
+
+<h2 style="font-size: 23px; text-align: center" > Watch this video because it is cute!</h2>
+
+<div class = "video-container">
+
+<iframe width="560" 
+height="315"
 src="https://www.youtube.com/embed/OdTvYMlRO9g?si=Y843pBoLDqvbJLrR"
-title="YouTube video player" frameborder="0"
+title="YouTube video player" 
+frameborder="0"
 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"
 allowfullscreen></iframe>
-
+</section>
 </div>
-
-
-
-
-
-
-
 
 
 <br>
@@ -72,6 +130,22 @@ allowfullscreen></iframe>
 <br>
 <b>*</b>vixen = female fox
 </p>
-<a href="website.html">Go Back to Homepage</a>
+<a href="website.html">Go Back to Homepage!</a>
+
+
+
+
+<script>
+document.querySelectorAll('.btn-scroll').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();  // Prevent instant jump
+        const target = document.querySelector(this.getAttribute('href'));  
+        target.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+        });
+    });
+});
+</script>
 </body>
 </html>

@@ -1,78 +1,67 @@
-
-
-
 body {
   background-image: url("https://www.worldwildlife.org/assets/structure/unique/bg-patterned-checked-51cb0afb5e9111aef8529ce1f6d871eb1694b6db4c2630db50bd0a5a7c4c357b.jpg");
-
- /* W3C */
+  background-repeat: no-repeat;
+  background-size:cover;
+  min-height: 100vh;
+}
+section {
+    padding: 20px;
+    margin: 20px 0;
+    border-bottom: 2px solid #031636;  /* 2px wide dark border */
 }
 
+html{
+scroll-behavior: smooth;
+}
 
 /* body {
-
   background-image: url('arcticbackground.jpeg'), linear-gradient(to bottom, rgba(64, 74, 107, 0.7), rgba(64, 74, 107, 0));
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100vh;
   background-blend-mode: lighten;
-
-
-
-
-} */
+} */ //can we delete this if its commented off anyways
 
 
 h1 {
-
   font-family: ClarendonBT-Light, Georgia, serif;
-  text-align: center;
+  text-align: justify;
   color: white;
   background-color: #03045e;
   font-weight: lighter;
   border-top: 5px solid white;
   border-bottom: 5px solid white;
-
-
+  padding: 10px;
 }
 
 
-h2 {
-
-
-
+h2, h3{
   font-family: ClarendonBT-Light, Georgia, serif;
   text-align: center;
   color: black;
-  margin-left:550px;
-  margin-right: 550px;
-
+  margin: 0 550px;
   padding: 20px;
-
-  padding: 3px;
-
-
 }
 
 .container2 {
-  position: center;
-  margin: 0px;
+  display: flex;
+  margin: 0;
   width: 100%;
   justify-content: center;
   overflow-y: hidden;
-
 }
+
 
 .topnav {
-  position: absolute;
-  left: 0px;
-  bottom: 0px;
-  background: #03045e;
-  padding: 10px;
-
-
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: #03045e;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
-
-
 
 .topnav a {
   float: center;
@@ -94,29 +83,44 @@ h2 {
 
 .bg-img {
   background-image: url("arctic-fox-main.jpg");
-
   min-height: 450px;
   width: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
   position: relative;
 }
 
 
-
 p {
-
-text-align:justify;
-font-size:19px;
-colour: #031636;
-font-family: "PlantinMTStd-Regular", Georgia, serif;
-padding: 10px;
-margin: 10px;
-border-radius: 5px;
-
-
-
-
+    text-align: justify;
+    font-size: 19px;
+    color: #031636;
+    font-family: "PlantinMTStd-Regular", Georgia, serif;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
 }
+
+
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;       
+    margin: 20px 0;
+}
+
+
+
+@media (min-width: 768px) {
+  body {
+    padding: 10px; /* Reduce padding on smaller screens */
+    font-size: 17px;
+  }   
+  h1 {
+    font-size: 24px; /* Smaller heading on mobile */
+  }
+
+} /*this all just fixes it up on different sized screens!*/
+
