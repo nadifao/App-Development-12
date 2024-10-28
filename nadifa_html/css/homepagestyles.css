@@ -79,20 +79,19 @@ padding: 12px;
 
 .topnav {
   position: relative;
-  margin-left: 250px;
+  justify-content: center;
   bottom: 0px;
   background: #black;
-  padding: 10px;
-  color: #white;
-  }
+  padding: 0px 20px;
+  margin: 0;
+ }
 
 .topnav ul {
 	list-style-type: none;
-	margin: 0;
-	padding: 0;
     background: black;
-    margin-left: 100px;
-    left: 0;
+    margin-left:55px;
+    margin-right: 55px;
+    text-align: center;
 }
 
 .topnav li {
@@ -108,7 +107,6 @@ padding: 12px;
   font-size:30px;
   margin-left:55px;
   margin-right: 55px;
-  justify-content: center;
 }
 
 .topnav ul ul {
@@ -121,6 +119,7 @@ padding: 12px;
     color: white;
     padding: 14px 16px;
     list-style: none;
+    justify-content: center;
 }
 
 .topnav li:hover ul {
