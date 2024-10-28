@@ -84,6 +84,7 @@ padding: 12px;
   background: #black;
   padding: 0px 20px;
   margin: 0;
+  z-index: 99;
  }
 
 .topnav ul {
@@ -110,8 +111,8 @@ padding: 12px;
 }
 
 .topnav ul ul {
-	position: relative;
-	bottom: 0%;
+	position: absolute;
+	top: 100%;
 	display: none;
 	font-size: 16px;
     border: none;
@@ -125,7 +126,7 @@ padding: 12px;
 .topnav li:hover ul {
 	display: block;
 	/*Changes the background hover colour */
-	background-color: black;
+	background-color: white;
 }
 
 .topnav ul li ul li a{
