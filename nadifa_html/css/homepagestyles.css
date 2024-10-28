@@ -101,7 +101,6 @@ padding: 12px;
 .topnav li a {
   color: white;
   display: block;
-  float: center;
   padding: 14px 16px;
   text-align: center;
   text-decoration: none;
@@ -134,9 +133,10 @@ padding: 12px;
 }
 
 .topnav ul li ul a{
-    justify-content: flex-start;
-    align-items: flex-start;
-    display: inline-block;
+    list-style-type: none;
+          margin: 50;
+          padding: 50;
+    display: flex;
 }
 
 .topnav ul ul li a img {
