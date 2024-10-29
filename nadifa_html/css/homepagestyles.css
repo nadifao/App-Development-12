@@ -111,8 +111,10 @@ padding: 12px;
 }
 
 .topnav ul ul {
-	position: absolute;
-	top: 100%;
+    display: block;
+    position: absolute;
+    top: 63px;
+    left: 150px;
 	display: none;
 	font-size: 16px;
     border: none;
@@ -127,6 +129,8 @@ padding: 12px;
 	display: block;
 	/*Changes the background hover colour */
 	background-color: white;
+	width: 1500px;
+	height: 500px;
 }
 
 .topnav ul li ul li a{
