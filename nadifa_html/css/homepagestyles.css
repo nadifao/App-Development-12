@@ -60,7 +60,7 @@ padding: 12px;
 
   background-image: url("arctic.jpeg");
 
-  min-height: 450px;
+  min-height: 700px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -78,20 +78,21 @@ padding: 12px;
 }
 
 .topnav {
-  position: absolute;
-  left: 0px;
+  position: relative;
+  justify-content: center;
   bottom: 0px;
   background: #black;
-  padding: 10px;
-  color: #white;
-  z-index: 999;
-}
+  padding: 0px 20px;
+  margin: 0;
+  z-index: 99;
+ }
 
 .topnav ul {
 	list-style-type: none;
-	margin: 0;
-	padding: 0;
     background: black;
+    margin-left: 55px;
+    margin-right: 55px;
+    text-align: center;
 }
 
 .topnav li {
@@ -101,52 +102,84 @@ padding: 12px;
 .topnav li a {
   color: white;
   display: block;
-  float: center;
   padding: 14px 16px;
   text-align: center;
   text-decoration: none;
   font-size:30px;
   margin-left:55px;
   margin-right: 55px;
-  justify-content: center;
 }
 
 .topnav ul ul {
-	position: absolute;
-	top: 100%;
+    display: block;
+    position: absolute;
+    top: 63px;
+    left: 150px;
 	display: none;
 	font-size: 16px;
     border: none;
     outline: none;
     color: white;
-    padding: 14px 16px;
     list-style: none;
+
 }
 
 .topnav li:hover ul {
 	display: block;
-	background-color: #black;
-    color: white;
+	/*Changes the background hover colour */
+	background-color: white;
+	width: 1500px;
+	height: 500px;
+	opacity: 1;
+	transform: translateY(0);
 }
 
-.topnav ul ul li a:hover {
-	background-color: #white;
+.topnav ul li ul li a{
+    list-style-type: none;
+    margin: 50;
+    padding: 50;
+    transition: all .5s ease;
+        opacity: 0;
 }
 
-.topnav ul li ul a{
-    justify-content: flex-start;
-    align-items: flex-start;
-    display: inline-block;
-}
-
-.topnav ul ul li a img {
-    background-color: white;
+.topnav ul ul li a .img1 {
+    position: relative;
     width: 300px;
-    height: 400px;
+    height: 450px;
+    padding 20px 20px;
+    top: 10px;
+    left: -500px;
 }
 
-.topnav ul ul li a img.img2 {
-    background-color: white;
-    width: 150px;
-    height: 150px;
+.topnav ul ul li a .img2 {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    padding 20px 20px;
+    top: -475px;
+    left: -200px;
+}
+.topnav ul ul li a .img3 {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    padding 20px 20px;
+    top: -490px;
+    left: -200px;
+ }
+.topnav ul ul li a .img4 {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    padding 20px 20px;
+    top: -950px;
+    right: -350px;
+}
+.topnav ul ul li a .img5 {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    padding 20px 20px;
+    top: -950px;
+    left: 350px;
 }
