@@ -181,39 +181,49 @@ padding: 12px;
 .text1 {
     position: relative;
     top: -1250px;
-    left: -580px;
+    left: -495px;
+    width: 290px;
     color: black;
+    text-align: left;
 }
 
 .text2 {
     position: relative;
-    top: -1620px;
-    left: 10px;
+    top: -1760px;
+    left: 65px;
     font-size: 16px;
+    width: 275px;
+    text-align: left;
     color: black;
 }
 
 .text3 {
     position: relative;
-    top: -1458px;
-    left: -35px;
+    top: -1780px;
+    left: 65px;
     font-size: 16px;
+    text-align: left;
+    width: 275px;
     color: black;
 }
 
 .text4 {
     position: relative;
-    top: -1775px;
-    left: 480px;
+    top: -2260px;
+    left: 565px;
     font-size: 16px;
+    text-align: left;
+    width: 225px;
     color: black;
 }
 
 .text5 {
     position: relative;
-    top: -1615px;
-    left: 475px;
+    top: -2285px;
+    left: 565px;
     font-size: 16px;
+    text-align: left;
+    width: 225px;
     color: black;
 }
 
