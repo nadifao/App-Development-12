@@ -1,0 +1,61 @@
+
+.container2 {
+  display: flex;
+  margin: 0;
+  width: 100%;
+  justify-content: center;
+  overflow-y: hidden;
+}
+
+
+h1 {
+  font-family: ClarendonBT-Light, Georgia, serif;
+  text-align: center;
+  color: white;
+  background-color: #03045e;
+  font-weight: lighter;
+  border-top: 5px solid white;
+  border-bottom: 4px solid white;
+  padding: 10px;
+
+
+}
+
+.topnav {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: #03045e;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.topnav a {
+  float: center;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 0px 16px;
+  text-decoration: none;
+  font-size:30px;
+  margin-left:55px;
+  margin-right: 55px;
+  justify-content: center;
+}
+
+.topnav a:hover {
+  border-bottom: 3px solid blue;
+  cursor: pointer;
+}
+
+
+.bg-img {
+  background-image: url("https://static.wikia.nocookie.net/naturerules1/images/d/d3/Beluga-shanghai2-slt-2000x1333-panorama.jpg/revision/latest?cb=20200604190128");
+  min-height: 450px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}

@@ -14,7 +14,7 @@
 <body>
 
 <div class="bg-img">
-  <h1>arctic fox</h1>
+  <h1 style="font-size: 50px;">arctic fox</h1>
     <div class="container2">
         <div class="topnav">
             <a href="#fun-facts" class="btn-scroll">fun facts!</a>
@@ -24,11 +24,14 @@
         </div>
     </div>
 </div>
-<h1 style="font-size: 65px; text-align: justify-center">Arctic Fox!</h1>
+<h1 style="font-size: 65px; text-align: center; background: none; color: black; border-top: none; border-bottom: none;"> Arctic Fox! </h1>
 
 <section id="fun-facts">
 <h2 style="font-size: 30px; text-align: center;">Fun Facts</h2>
+
 <p style="font-size:19px"> 
+• arctic foxes when sprinting would reach speeds of 50 kph!
+
 <br>
 <br>
 <b>Arctic foxes</b> can reach sprinting speeds of up to <b>50 kph</b> (31 mph), making them fast hunters and excellent escape artists!
@@ -135,10 +138,10 @@ This unique hunting behavior not only highlights their <b>precision</b> but also
 
 <div class = "video-container">
 
-<iframe width="560" 
+<iframe width="560"
 height="315"
 src="https://www.youtube.com/embed/OdTvYMlRO9g?si=Y843pBoLDqvbJLrR"
-title="YouTube video player" 
+title="YouTube video player"
 frameborder="0"
 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"
 allowfullscreen></iframe>
@@ -162,6 +165,7 @@ document.querySelectorAll('.btn-scroll').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
         e.preventDefault();  // prevents instant jump!!!!!!!!!!!!!!!!!
         const target = document.querySelector(this.getAttribute('href'));  
+
         target.scrollIntoView({
             behavior: 'smooth',
             block: 'start'

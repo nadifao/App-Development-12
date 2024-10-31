@@ -3,6 +3,7 @@ body {
   background-repeat: no-repeat;
   background-size:cover;
   min-height: 100vh;
+
 }
 section {
     padding: 20px;
@@ -14,32 +15,29 @@ html{
 scroll-behavior: smooth;
 }
 
-/* body {
-  background-image: url('arcticbackground.jpeg'), linear-gradient(to bottom, rgba(64, 74, 107, 0.7), rgba(64, 74, 107, 0));
-  background-repeat: no-repeat;
-  background-size: cover;
-  min-height: 100vh;
-  background-blend-mode: lighten;
-} */ //can we delete this if its commented off anyways
+
 
 
 h1 {
   font-family: ClarendonBT-Light, Georgia, serif;
-  text-align: justify;
+  text-align: center;
   color: white;
   background-color: #03045e;
   font-weight: lighter;
   border-top: 5px solid white;
-  border-bottom: 5px solid white;
+  border-bottom: 4px solid white;
   padding: 10px;
+
 }
+
+
 
 
 h2, h3{
   font-family: ClarendonBT-Light, Georgia, serif;
   text-align: center;
   color: black;
-  margin: 0 550px;
+  margin: 0 400px;
   padding: 20px;
 }
 
@@ -135,7 +133,7 @@ p {
 .video-container {
     display: flex;
     justify-content: center;
-    align-items: center;       
+    align-items: center;
     margin: 20px 0;
 }
 
@@ -149,14 +147,15 @@ p {
 
 
 
+
+
 @media (min-width: 768px) {
   body {
     padding: 10px; /* Reduce padding on smaller screens */
     font-size: 17px;
-  }   
+  }
   h1 {
     font-size: 24px; /* Smaller heading on mobile */
   }
 
 } /*this all just fixes it up on different sized screens!*/
-
