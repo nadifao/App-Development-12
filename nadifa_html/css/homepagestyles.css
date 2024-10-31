@@ -81,16 +81,16 @@ padding: 12px;
   position: relative;
   justify-content: center;
   bottom: 0px;
-  background: #black;
+  background: #white;
   padding: 0px 20px;
   z-index: 99;
  }
 
 .topnav ul {
 	list-style-type: none;
-    background: black;
-    margin-left: 55px;
-    margin-right: 55px;
+    background: white;
+    margin-left: 260px;
+    margin-right: 260px;
     text-align: center;
 }
 
@@ -99,9 +99,9 @@ padding: 12px;
 }
 
 .topnav li a {
-  color: white;
+  color: black;
   display: block;
-  padding: 14px 16px;
+  padding: 14px 20px;
   text-align: center;
   text-decoration: none;
   font-size:30px;
@@ -112,8 +112,8 @@ padding: 12px;
 .topnav ul ul {
     display: none;
     position: absolute;
-    top: 63px;
-    left: 150px;
+    top: 62px;
+    left: 20px;
 	font-size: 16px;
     color: white;
     opacity: 0;
@@ -125,7 +125,7 @@ padding: 12px;
 	display: block;
 	/*Changes the background hover colour */
 	background-color: white;
-	width: 1500px;
+	width: 1289px;
 	max-height: 500px;
 	opacity: 1;
 }
@@ -147,35 +147,74 @@ padding: 12px;
 
 .topnav ul ul li a .img2 {
     position: relative;
-    width: 200px;
-    height: 200px;
+    width: 220px;
+    height: 220px;
     padding 20px 20px;
     top: -475px;
     left: -200px;
 }
 .topnav ul ul li a .img3 {
     position: relative;
-    width: 200px;
-    height: 200px;
+    width: 220px;
+    height: 220px;
     padding 20px 20px;
     top: -490px;
     left: -200px;
  }
 .topnav ul ul li a .img4 {
     position: relative;
-    width: 200px;
-    height: 200px;
+    width: 220px;
+    height: 220px;
     padding 20px 20px;
-    top: -950px;
-    right: -350px;
+    top: -986px;
+    right: -300px;
 }
 .topnav ul ul li a .img5 {
     position: relative;
-    width: 200px;
-    height: 200px;
+    width: 220px;
+    height: 220px;
     padding 20px 20px;
-    top: -950px;
-    left: 350px;
+    top: -1000px;
+    left: 300px;
+}
+
+.text1 {
+    position: relative;
+    top: -1250px;
+    left: -580px;
+    color: black;
+}
+
+.text2 {
+    position: relative;
+    top: -1620px;
+    left: 10px;
+    font-size: 16px;
+    color: black;
+}
+
+.text3 {
+    position: relative;
+    top: -1458px;
+    left: -35px;
+    font-size: 16px;
+    color: black;
+}
+
+.text4 {
+    position: relative;
+    top: -1775px;
+    left: 480px;
+    font-size: 16px;
+    color: black;
+}
+
+.text5 {
+    position: relative;
+    top: -1615px;
+    left: 475px;
+    font-size: 16px;
+    color: black;
 }
 
 
