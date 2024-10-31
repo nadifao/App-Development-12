@@ -270,4 +270,27 @@ button {
     color: black;
 }
 
+.topnav ul ul {
+  display: block;
+  position: absolute;
+  top: 62px;
+  left: 20px;
+  font-size: 16px;
+  color: white;
+  background-color: white;
+  opacity: 0;
+  max-height: 0;
+  visibility: hidden;
+  transform: translateY(-10px);
+  transition: opacity 0.9s ease, max-height 0.9s ease, transform 0.9s ease;
+}
+
+.topnav li:hover ul {
+  opacity: 1;
+  max-height: 500px;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+
 
