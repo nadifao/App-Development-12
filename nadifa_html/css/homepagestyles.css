@@ -25,45 +25,91 @@ padding: 12px;
 
 .container {
 
-  padding: 20px;
-  margin: 10px;
+  position: relative;
+
+
 
 }
 
-.btn {
 
-  margin: 10px;
-  background-color: white;
-  border-radius: 2px;
+.container a {
+
+display: inline-block;
+
+}
+
+button {
+
+  margin: 40px;
+  margin-top: -30px;
+  background-color: #03045e;
+  border: none;
+  position: relative;
+  border-radius: 10px;
   width: 327px;
   height: 340px;
 
 }
 
 
-.img {
-
-  width: 202px;
-  height: 300px;
-  position: relative;
-  left: -6px;
-  top: -2px;
-  border-radius:2px;
-  opacity: 1;
-  transition: .5s ease;
-  backface-visibility: hidden;
+.parent:hover .button-text {
   cursor: pointer;
+  color: white;
+  filter: drop-shadow(2px 2px 5px white);
+
+  opacity:100%;
+}
+
+.button-text {
+  font-family:ClarendonBT-Light, Georgia, serif;
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  color: #03045e;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 30px;
+
 
 }
+
+.img {
+
+  position: inherit;
+  cursor: pointer;
+  width: 327px;
+  height: 340px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-left: -6px;
+  margin-top: -1px;
+
+
+}
+
+.parent:hover .img {
+  transition: .5s ease;
+
+  opacity: 50%;
+
+
+}
+
+
+
+
 
 .bg-img {
 
   background-image: url("arctic.jpeg");
-
+  background-image: linear-gradient(to top, rgba(0,0,104, 0) 0%, rgba(0,0,104, 0.7) 100%), url(arctic.jpeg);
   min-height: 700px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  margin-bottom: 50px;
 
   position: relative;
 }
@@ -81,17 +127,16 @@ padding: 12px;
   position: relative;
   justify-content: center;
   bottom: 0px;
-  background: #black;
+  background: #white;
   padding: 0px 20px;
-  margin: 0;
   z-index: 99;
  }
 
 .topnav ul {
 	list-style-type: none;
-    background: black;
-    margin-left: 55px;
-    margin-right: 55px;
+    background: white;
+    margin-left: 260px;
+    margin-right: 260px;
     text-align: center;
 }
 
@@ -100,46 +145,43 @@ padding: 12px;
 }
 
 .topnav li a {
-  color: white;
+  color: black;
   display: block;
-  padding: 14px 16px;
-  text-align: center;
-  text-decoration: none;
-  font-size:30px;
-  margin-left:55px;
-  margin-right: 55px;
+  padding: 14px 20px;
+  position: absolute;
+  left: -10px;
+  bottom: -10px;
+  background: #black;
+  padding: 10px;
+  color: #white;
+  z-index: 999;
 }
 
 .topnav ul ul {
-    display: block;
+    display: none;
     position: absolute;
-    top: 63px;
-    left: 150px;
-	display: none;
+    top: 62px;
+    left: 20px;
 	font-size: 16px;
-    border: none;
-    outline: none;
     color: white;
-    list-style: none;
-
+    opacity: 0;
+    max-height: 0;
+    transition: opacity 0.4s ease, max-height 0.4s ease;
 }
 
 .topnav li:hover ul {
 	display: block;
 	/*Changes the background hover colour */
 	background-color: white;
-	width: 1500px;
-	height: 500px;
+	width: 1289px;
+	max-height: 500px;
 	opacity: 1;
-	transform: translateY(0);
 }
 
 .topnav ul li ul li a{
     list-style-type: none;
     margin: 50;
     padding: 50;
-    transition: all .5s ease;
-        opacity: 0;
 }
 
 .topnav ul ul li a .img1 {
@@ -153,33 +195,76 @@ padding: 12px;
 
 .topnav ul ul li a .img2 {
     position: relative;
-    width: 200px;
-    height: 200px;
+    width: 220px;
+    height: 220px;
     padding 20px 20px;
     top: -475px;
     left: -200px;
 }
+
+}
 .topnav ul ul li a .img3 {
     position: relative;
-    width: 200px;
-    height: 200px;
+    width: 220px;
+    height: 220px;
     padding 20px 20px;
     top: -490px;
     left: -200px;
  }
 .topnav ul ul li a .img4 {
     position: relative;
-    width: 200px;
-    height: 200px;
+    width: 220px;
+    height: 220px;
     padding 20px 20px;
-    top: -950px;
-    right: -350px;
+    top: -986px;
+    right: -300px;
 }
 .topnav ul ul li a .img5 {
     position: relative;
-    width: 200px;
-    height: 200px;
+    width: 220px;
+    height: 220px;
     padding 20px 20px;
-    top: -950px;
-    left: 350px;
+    top: -1000px;
+    left: 300px;
 }
+
+.text1 {
+    position: relative;
+    top: -1250px;
+    left: -580px;
+    color: black;
+}
+
+.text2 {
+    position: relative;
+    top: -1620px;
+    left: 10px;
+    font-size: 16px;
+    color: black;
+}
+
+.text3 {
+    position: relative;
+    top: -1458px;
+    left: -35px;
+    font-size: 16px;
+    color: black;
+}
+
+.text4 {
+    position: relative;
+    top: -1775px;
+    left: 480px;
+    font-size: 16px;
+    color: black;
+}
+
+.text5 {
+    position: relative;
+    top: -1615px;
+    left: 475px;
+    font-size: 16px;
+    color: black;
+}
+
+
