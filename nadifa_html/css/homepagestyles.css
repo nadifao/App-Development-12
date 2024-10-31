@@ -59,7 +59,7 @@ padding: 12px;
 .bg-img {
 
   background-image: url("arctic.jpeg");
-
+  background-image: linear-gradient(to top, rgba(0,0,104, 0) 0%, rgba(0,0,104, 0.7) 100%), url(arctic.jpeg);
   min-height: 700px;
   background-position: center;
   background-repeat: no-repeat;
@@ -83,7 +83,6 @@ padding: 12px;
   bottom: 0px;
   background: #black;
   padding: 0px 20px;
-  margin: 0;
   z-index: 99;
  }
 
@@ -111,17 +110,15 @@ padding: 12px;
 }
 
 .topnav ul ul {
-    display: block;
+    display: none;
     position: absolute;
     top: 63px;
     left: 150px;
-	display: none;
 	font-size: 16px;
-    border: none;
-    outline: none;
     color: white;
-    list-style: none;
-
+    opacity: 0;
+    max-height: 0;
+    transition: opacity 0.4s ease, max-height 0.4s ease;
 }
 
 .topnav li:hover ul {
@@ -129,17 +126,14 @@ padding: 12px;
 	/*Changes the background hover colour */
 	background-color: white;
 	width: 1500px;
-	height: 500px;
+	max-height: 500px;
 	opacity: 1;
-	transform: translateY(0);
 }
 
 .topnav ul li ul li a{
     list-style-type: none;
     margin: 50;
     padding: 50;
-    transition: all .5s ease;
-        opacity: 0;
 }
 
 .topnav ul ul li a .img1 {
@@ -183,3 +177,5 @@ padding: 12px;
     top: -950px;
     left: 350px;
 }
+
+
