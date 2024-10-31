@@ -118,7 +118,6 @@ padding: 12px;
     color: white;
     opacity: 0;
     max-height: 0;
-    transition: opacity 0.4s ease, max-height 0.4s ease;
 }
 
 .topnav li:hover ul {
@@ -152,8 +151,6 @@ padding: 12px;
     top: -475px;
     left: -200px;
 }
-
-}
 .topnav ul ul li a .img3 {
     position: relative;
     width: 220px;
@@ -184,7 +181,7 @@ padding: 12px;
     top: -1250px;
     left: -495px;
     width: 290px;
-    color: black;
+    color: white;
     text-align: left;
 }
 
