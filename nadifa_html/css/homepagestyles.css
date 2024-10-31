@@ -25,36 +25,81 @@ padding: 12px;
 
 .container {
 
-  padding: 20px;
-  margin: 10px;
+  position: relative;
+
+
 
 }
 
-.btn {
 
-  margin: 10px;
-  background-color: white;
-  border-radius: 2px;
+.container a {
+
+display: inline-block;
+
+}
+
+button {
+
+  margin: 40px;
+  margin-top: -30px;
+  background-color: #03045e;
+  border: none;
+  position: relative;
+  border-radius: 10px;
   width: 327px;
   height: 340px;
 
 }
 
 
-.img {
-
-  width: 202px;
-  height: 300px;
-  position: relative;
-  left: -6px;
-  top: -2px;
-  border-radius:2px;
-  opacity: 1;
-  transition: .5s ease;
-  backface-visibility: hidden;
+.parent:hover .button-text {
   cursor: pointer;
+  color: white;
+  filter: drop-shadow(2px 2px 5px white);
+
+  opacity:100%;
+}
+
+.button-text {
+  font-family:ClarendonBT-Light, Georgia, serif;
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  color: #03045e;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 30px;
+
 
 }
+
+.img {
+
+  position: inherit;
+  cursor: pointer;
+  width: 327px;
+  height: 340px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-left: -6px;
+  margin-top: -1px;
+
+
+}
+
+.parent:hover .img {
+  transition: .5s ease;
+
+  opacity: 50%;
+
+
+}
+
+
+
+
 
 .bg-img {
 
