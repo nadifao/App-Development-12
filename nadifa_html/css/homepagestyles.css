@@ -122,7 +122,6 @@ button {
   margin-bottom: -100px;
 
 }
-
 .topnav {
   position: relative;
   justify-content: center;
@@ -148,42 +147,13 @@ button {
   color: black;
   display: block;
   padding: 14px 20px;
-  position: absolute;
-  left: -10px;
-  bottom: -10px;
-  background: #black;
-  padding: 10px;
-  color: white;
-  z-index: 999;
-}
-
-<<<<<<< HEAD
-.topnav ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-  background: #03045e;
-}
-
-.topnav li {
-	display: inline-block;
-}
-
-.topnav li a {
-  color: white;
-  display: block;
-  float: center;
-  padding: 14px 16px;
   text-align: center;
   text-decoration: none;
   font-size:30px;
   margin-left:55px;
   margin-right: 55px;
-  justify-content: center;
 }
 
-=======
->>>>>>> 46cf63ad290ce63ee974c656391cf12a6453846f
 .topnav ul ul {
     display: none;
     position: absolute;
@@ -193,7 +163,6 @@ button {
     color: white;
     opacity: 0;
     max-height: 0;
-    transition: opacity 0.4s ease, max-height 0.4s ease;
 }
 
 .topnav li:hover ul {
@@ -210,7 +179,6 @@ button {
     margin: 50;
     padding: 50;
 }
-
 .topnav ul ul li a .img1 {
     position: relative;
     width: 300px;
@@ -227,8 +195,6 @@ button {
     padding 20px 20px;
     top: -475px;
     left: -200px;
-}
-
 }
 .topnav ul ul li a .img3 {
     position: relative;
@@ -258,39 +224,49 @@ button {
 .text1 {
     position: relative;
     top: -1250px;
-    left: -580px;
-    color: black;
+    left: -495px;
+    width: 290px;
+    color: white;
+    text-align: left;
 }
 
 .text2 {
     position: relative;
-    top: -1620px;
-    left: 10px;
+    top: -1760px;
+    left: 65px;
     font-size: 16px;
+    width: 275px;
+    text-align: left;
     color: black;
 }
 
 .text3 {
     position: relative;
-    top: -1458px;
-    left: -35px;
+    top: -1780px;
+    left: 65px;
     font-size: 16px;
+    text-align: left;
+    width: 275px;
     color: black;
 }
 
 .text4 {
     position: relative;
-    top: -1775px;
-    left: 480px;
+    top: -2260px;
+    left: 565px;
     font-size: 16px;
+    text-align: left;
+    width: 225px;
     color: black;
 }
 
 .text5 {
     position: relative;
-    top: -1615px;
-    left: 475px;
+    top: -2285px;
+    left: 565px;
     font-size: 16px;
+    text-align: left;
+    width: 225px;
     color: black;
 }
 
