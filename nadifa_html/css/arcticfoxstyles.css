@@ -3,6 +3,7 @@ body {
   background-repeat: no-repeat;
   background-size:cover;
   min-height: 100vh;
+
 }
 section {
     padding: 20px;
@@ -26,6 +27,7 @@ h1 {
   border-top: 5px solid white;
   border-bottom: 4px solid white;
   padding: 10px;
+
 }
 
 
@@ -35,7 +37,7 @@ h2, h3{
   font-family: ClarendonBT-Light, Georgia, serif;
   text-align: center;
   color: black;
-  margin: 0 550px;
+  margin: 0 400px;
   padding: 20px;
 }
 
@@ -106,6 +108,8 @@ p {
     align-items: center;
     margin: 20px 0;
 }
+
+
 
 
 

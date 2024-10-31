@@ -1,17 +1,4 @@
 
-
-h1 {
-
-  font-family: ClarendonBT-Light, Georgia, serif;
-  text-align: center;
-  color: white;
-
-  font-weight: lighter;
-  border-top: 5px solid white;
-  border-bottom: 5px solid white;
-  padding: 10px;
-}
-
 .container2 {
   display: flex;
   margin: 0;
@@ -20,6 +7,19 @@ h1 {
   overflow-y: hidden;
 }
 
+
+h1 {
+  font-family: ClarendonBT-Light, Georgia, serif;
+  text-align: center;
+  color: white;
+  background-color: #03045e;
+  font-weight: lighter;
+  border-top: 5px solid white;
+  border-bottom: 4px solid white;
+  padding: 10px;
+
+
+}
 
 .topnav {
     position: absolute;
@@ -51,7 +51,7 @@ h1 {
 
 
 .bg-img {
-  background-image: url("arctic-fox-main.jpg");
+  background-image: url("https://static.wikia.nocookie.net/naturerules1/images/d/d3/Beluga-shanghai2-slt-2000x1333-panorama.jpg/revision/latest?cb=20200604190128");
   min-height: 450px;
   width: 100%;
   background-position: center;
