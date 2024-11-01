@@ -117,6 +117,25 @@ h2, h3{
   position: relative;
 }
 
+.banner{
+  background-image: url("https://www.wwf.org.uk/sites/default/files/styles/max_650x650/public/2018-01/Emperor_penguin_lying_down.jpg?itok=rj0ynt1P");
+  min-height: 450px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.baner{
+  background-image: url("https://i.ytimg.com/vi/PbySbprDjF0/maxresdefault.jpg");
+  min-height: 450px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
 
 p {
     text-align: justify;
@@ -135,6 +154,14 @@ p {
     justify-content: center;
     align-items: center;
     margin: 20px 0;
+}
+
+
+.video-container img { 
+width: 100%; 
+max-width: 700px; 
+margin: auto; 
+display: block; 
 }
 
 
