@@ -138,6 +138,14 @@ p {
 }
 
 
+.video-container img { 
+width: 100%; 
+max-width: 700px; 
+margin: auto; 
+display: block; 
+}
+
+
  
 
 
