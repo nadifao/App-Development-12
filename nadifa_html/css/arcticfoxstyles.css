@@ -117,7 +117,7 @@ h2, h3{
   position: relative;
 }
 
-.banner img {
+.banner{
   background-image: url("https://www.wwf.org.uk/sites/default/files/styles/max_650x650/public/2018-01/Emperor_penguin_lying_down.jpg?itok=rj0ynt1P");
   min-height: 450px;
   width: 100%;
