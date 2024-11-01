@@ -127,6 +127,16 @@ h2, h3{
   position: relative;
 }
 
+.baner{
+  background-image: url("https://i.ytimg.com/vi/PbySbprDjF0/maxresdefault.jpg");
+  min-height: 450px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
 p {
     text-align: justify;
     font-size: 19px;
